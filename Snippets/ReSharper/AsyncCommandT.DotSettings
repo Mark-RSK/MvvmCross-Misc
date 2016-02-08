@@ -1,0 +1,25 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Shortcut/@EntryValue">mvxacomt</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Description/@EntryValue">MvvmCross Async Command with argument</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Text/@EntryValue">private MvxAsyncCommand&lt;$TYPE$&gt; _$NAME$;&#xD;
+public ICommand $PNAME$ =&gt; &#xD;
+	_$NAME$ ?? (_$NAME$ = new MvxAsyncCommand&lt;$TYPE$&gt;(Do$PNAME$Async));&#xD;
+&#xD;
+private Task Do$PNAME$Async($TYPE$ arg)&#xD;
+{&#xD;
+    $END$        &#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Categories/=MvvmCross/@EntryIndexedValue">MvvmCross</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=NAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=PNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=287319EE1653384ABBBE045B0C87ED48/Field/=PNAME/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
